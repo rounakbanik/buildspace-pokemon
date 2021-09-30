@@ -1,0 +1,240 @@
+body {
+  background-color: #0d1116;
+}
+
+.metamask-error {
+  position: relative;
+  top: 0;
+  left: 0;
+  background: #FBD34D;
+  color: black;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.container {
+  height: 100%;
+  background-color: #0d1116;
+  padding: 30px;
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.banner-img {
+  margin-bottom: 50px;
+}
+
+.banner-img img {
+  max-height: 250px;
+  max-width: 100%;
+}
+
+.header-container {
+  padding-top: 30px;
+}
+
+.header {
+  margin: 0;
+  font-size: 42px;
+  font-weight: bold;
+  margin: 10px auto;
+  margin-bottom: 50px;
+}
+
+.sub-text {
+  font-size: 18px;
+  color: white;
+  line-height: 27px;
+  margin-bottom: 50px;
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cta-button {
+  height: 45px;
+  border: 0;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.connect-wallet-button {
+  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.mint-button {
+  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  margin-right: 15px;
+}
+
+.opensea-button {
+  background-color: rgb(32, 129, 226);
+}
+
+.mint-count {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+
+.twitter-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* KeyFrames */
+@-webkit-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.mining {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mining span, .mining div {
+  display: inline-block;
+}
+
+.mining span {
+  color: #FBD34D;
+}
+
+.success, .mining {
+  margin-bottom: 20px;
+}
+
+.success button {
+  display: inline-block;
+  margin: 5px auto;
+  text-align: center;
+  background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);   
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.success p {
+  color: #34D399;
+}
+
+.error p {
+  color: red;
+}
+
+.loader {
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid #FBD34D; /* Yellow */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+  margin: 0px 15px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.success-link {
+  line-height: 27px;
+}
+
+.success-link span{
+  color: white;
+}
+
+.success-link a {
+  color: white;
+}
+
+.shiny-hunter-container {
+  min-height: 100px;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  color: white;
+}
+
+.hunter {
+  border: 1px solid white;
+  padding: 15px;
+  margin: 15px auto;
+}
+
+.hspecies {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.haddress {
+  font-size: 16px;
+  word-break: break-all;
+}
