@@ -147,7 +147,7 @@ const App = () => {
         const nftContract = new ethers.Contract(contractAddress, abi, signer);
 
         console.log("Initialize payment");
-        let nftTxn = await nftContract.mintNFT();
+        let nftTxn = await nftContract.mintNFT({ gasLimit: 900000 });
 
         console.log("Mining... please wait");
         await nftTxn.wait();
